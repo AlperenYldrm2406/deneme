@@ -1,1 +1,1 @@
-# deneme
+Bu repo KSBU yapay zeka ve bilgisayar bilimleri topluluğu websitesi kaynak kodlarından oluşmaktadır. Soru yada fikirleriniz var ise www.linkedin.com/in/alperen-yildirim-084969353 adersindne bana ulaşabilirsiniz.

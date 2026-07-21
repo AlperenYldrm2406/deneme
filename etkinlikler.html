@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etkinlikler — YZBBT</title>
+  <meta name="description" content="YZBBT etkinlikleri — Yakında harika etkinliklerle karşınızdayız.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="assets/topluluk-logo.png" type="image/png">
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+  <div class="bg-orb bg-orb--1"></div>
+  <div class="bg-orb bg-orb--2"></div>
+  <div class="bg-orb bg-orb--3"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/topluluk-logo.png" alt="YZBBT Logo" class="nav-logo-img">
+        <span>YZBBT</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="etkinlikler.html">Etkinlikler</a>
+        <a href="ekip.html">Ekip</a>
+        <a href="tarihce.html">Tarihçe</a>
+        <a href="iletisim.html">İletişim</a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menüyü aç">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="maintenance">
+    <div class="container">
+      <div class="maintenance-content reveal">
+        <span class="maintenance-icon">🔧</span>
+        <h2>Etkinlikler Hazırlanıyor</h2>
+        <p>
+          Topluluğumuz yeni kurulduğu için etkinlik takvimimizi şu anda planlama
+          aşamasındayız. Workshoplar, seminerler ve daha fazlasıyla yakında
+          karşınızda olacağız! Gelişmeleri sosyal medya hesaplarımızdan takip edebilirsiniz.
+        </p>
+
+        <div class="maintenance-progress">
+          <div class="progress-bar">
+            <div class="progress-bar-fill"></div>
+          </div>
+          <span class="progress-text">Planlama aşamasındayız...</span>
+        </div>
+
+        <a href="iletisim.html" class="btn btn-primary">
+          <i class="fas fa-bell"></i> Bizimle İletişime Geçin
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <img src="assets/topluluk-logo.png" alt="YZBBT Logo" class="nav-logo-img">
+            <span>YZBBT</span>
+          </a>
+          <div class="footer-uni-badge">
+            <a href="https://www.ksbu.edu.tr/defaultx" target="_blank"><img src="assets/ksbu-logo.png" alt="KSBÜ" class="footer-uni-logo"></a>
+            <span>Kütahya Sağlık Bilimleri Üniversitesi</span>
+          </div>
+          <p>Yapay Zeka ve Bilgisayar Bilimleri Topluluğu. Geleceğin teknolojilerini birlikte keşfediyoruz.</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-links-group">
+            <h4>Sayfalar</h4>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="hakkimizda.html">Hakkımızda</a>
+            <a href="etkinlikler.html">Etkinlikler</a>
+            <a href="ekip.html">Ekip</a>
+            <a href="tarihce.html">Tarihçe</a>
+            <a href="iletisim.html">İletişim</a>
+          </div>
+          <div class="footer-links-group">
+            <h4>Kaynaklar</h4>
+            <a href="https://github.com/AlperenYldrm2406/YZBBT-website2.0-" target="_blank">GitHub</a>
+            <a href="etkinlikler.html">Etkinlik Takvimi</a>
+            <a href="ekip.html">Ekibimiz</a>
+          </div>
+          <div class="footer-links-group">
+            <h4>İletişim</h4>
+            <a href="mailto:yzbbt@ksbu.edu.tr">yzbbt@ksbu.edu.tr</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2025 YZBBT — Tüm hakları saklıdır.</span>
+        <div class="footer-socials">
+          <a href="https://whatsapp.com/channel/" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="members.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,535 @@
+﻿window.YZ_DATA = {
+    "sectors": [
+        {
+            "id": "s1",
+            "name": "Sağlık Bilimleri ve Bakım Hizmetleri",
+            "icon": "⚕️",
+            "professions": [
+                {
+                    "id": "p_0",
+                    "name": "Tıp",
+                    "shortDesc": "Cerrahi operasyonlarda ve onkolojik teşhislerde robotik AI kullanımı.",
+                    "article": "Tıp dünyası, yapay zekanın teşhis yeteneğiyle kökten değişiyor. Klasik radyoloji uzmanlarının saatler süren ve göz yorgunluğuna bağlı hata payı barındıran MR ve tomografi okumaları, derin öğrenme (Deep Learning) modelleri sayesinde saniyeler içinde %99.4 doğruluğa ulaşıyor. Özellikle onkolojide kanserli dokunun henüz milimetrik boyutlardayken tespit edilmesi, doktorların tedaviye çok daha erken başlamasını sağlıyor.\n\nBunun yanı sıra cerrahi branşlarda doktorlar artık 'Da Vinci' gibi robotik kolları yönetirken, arkadaki yapay zeka organların 3 boyutlu canlı haritasını çıkararak doktoru riskli damar kesiklerine karşı uyarıyor. Tıp, insanın biyolojik sezgisi ile yapay zekanın yanılmaz istatistiksel gücünün mükemmel bir birleşimine dönüşmüştür.",
+                    "pastProjects": [
+                        "IBM Watson for Oncology: Milyonlarca tıbbi makaleyi tarayarak hastanın genetik profiline en uygun kanser tedavi kombinasyonunu çıkaran sistem.",
+                        "Google DeepMind Health: Akut böbrek yetmezliğini doktorlardan 48 saat önce tespit edebilen yapay zeka algoritması."
+                    ],
+                    "futureProjects": [
+                        "Kan dolaşımına enjekte edilip tıkanık damarları otonom olarak açabilen, yapay zeka kontrollü nano-cerrah robot filoları.",
+                        "Doktorların hologram üzerinden hastanın organını eliyle çevirerek inceleyebileceği Kuantum Teşhis Odaları."
+                    ],
+                    "imagePath": "images/ai_tip_0.jpg"
+                },
+                {
+                    "id": "p_1",
+                    "name": "Diş Hekimliği",
+                    "shortDesc": "Akıllı frezleme ve 3D sinir yolu haritalaması.",
+                    "article": "Diş hekimliğinde yapay zeka, estetik ve cerrahi planlamanın belkemiği haline gelmiştir. Geleneksel panoramik röntgenler yerine kullanılan 3D Cone-Beam taramaları, yapay zeka tarafından işlenerek çene kemiğinin yoğunluğunu, sinirlerin geçtiği milimetrik yolları ve kök kanallarının gizli kavislerini hekimin önüne serer. Bu sayede implant ameliyatlarında sinir zedelenmesi riski neredeyse sıfıra inmektedir.\n\nDişin çürüme potansiyelini mine tabakasındaki mikro-çatlaklardan okuyan algoritmalar, hastaya aylar öncesinden çürük uyarısı verebilmektedir. Ayrıca gülüş tasarımı (Smile Design) yazılımlarında yapay zeka, hastanın yüz kaslarını ve mimiklerini hesaplayarak ona en uygun diş formunu saniyeler içinde 3 boyutlu olarak çizebilmektedir.",
+                    "pastProjects": [
+                        "Pearl AI: Diş röntgenlerinde insan gözünden kaçan çürük, tartar ve kemik kayıplarını renkli piksellerle işaretleyen dental AI yazılımı.",
+                        "Robotic Implant Systems: Diş hekiminin planladığı implantı milimetrenin onda biri hata payıyla çene kemiğine yerleştiren otonom frez robotları."
+                    ],
+                    "futureProjects": [
+                        "Tamamen hastanın kök hücrelerinden otonom biyo-yazıcılarla 24 saatte yeni ve canlı diş üreten yapay zeka laboratuvarları.",
+                        "Diş fırçasına entegre edilmiş ve her fırçalamada tükürük analizi yapıp diş hekimine günlük rapor gönderen AI asistanlar."
+                    ],
+                    "imagePath": "images/ai_dis_hekimligi_1.jpg"
+                },
+                {
+                    "id": "p_2",
+                    "name": "Beslenme ve Diyetetik",
+                    "shortDesc": "Mikrobiyom ve genetik temelli otonom beslenme planlaması.",
+                    "article": "Standart diyet listelerinin yerini, yapay zekanın devasa genetik veri havuzlarını analiz ettiği kişiselleştirilmiş beslenme modelleri alıyor. Bir diyetisyen artık hastasının sadece kilo/boy oranına değil; yapay zeka tarafından sağlanan bağırsak mikrobiyomu, kan değerleri ve uyku düzeni korelasyonlarına bakarak çalışmaktadır.\n\nYapay zeka algoritmaları, bireyin yediği bir elmanın kan şekerini kaç dakikada ne kadar yükselteceğini genetik algoritmalarla tahmin eder. Giyilebilir sensörlerden (örneğin akıllı yamalardan) gelen anlık verilerle diyet listesi sabah, öğle ve akşam dinamik olarak güncellenir, böylece vücut sürekli ideal metabolik dengede tutulur.",
+                    "pastProjects": [
+                        "DayTwo AI: Kişinin dışkı örneğinden bağırsak florasını çıkarıp, spesifik yiyeceklere verilen glisemik tepkileri tahmin eden sistem.",
+                        "Görsel Kalori Tanıma: Sadece yemeğin fotoğrafını çekerek içindeki makro ve mikro besinleri gramajına kadar hesaplayan derin öğrenme uygulamaları."
+                    ],
+                    "futureProjects": [
+                        "Vücudun anlık vitamin ve mineral eksiğine göre mutfaktaki 3D gıda yazıcılarına komut verip tam ihtiyaca yönelik yemek basan ev asistanları.",
+                        "Kan dolaşımındaki nano-sensörlerle haberleşip metabolizmayı saniye saniye izleyen otonom diyetisyen yazılımları."
+                    ],
+                    "imagePath": "images/ai_beslenme_ve_diyetetik_2.jpg"
+                },
+                {
+                    "id": "p_3",
+                    "name": "Dil ve Konuşma Terapisi",
+                    "shortDesc": "Ses frekansı analizi ve sanal gerçeklik ile artikülasyon eğitimi.",
+                    "article": "Konuşma bozukluklarının tedavisi, insan kulağının duyamayacağı frekans farklılıklarını tespit eden ses işleme (Audio Processing) algoritmaları ile yepyeni bir boyut kazanmıştır. Yapay zeka, hastanın konuşmasındaki mikro-duraklamaları, vurgu hatalarını ve ses teli titreşimlerini saniyede binlerce kez analiz ederek sorunun nörolojik mi yoksa kas kaynaklı mı olduğunu terapiste anında raporlar.\n\nKekemelik, afazi veya otizm spektrumundaki hastalar için sanal gerçeklik (VR) gözlükleriyle entegre çalışan yapay zeka avatarları, hastanın stres seviyesini göz bebeklerinden (Eye Tracking) ölçerek terapi senaryosunun zorluğunu canlı olarak ayarlar. Terapist, bu sayede hastanın psikolojik sınırlarını aşmadan en verimli eğitimi verebilir.",
+                    "pastProjects": [
+                        "Voiceitt: Şiddetli konuşma bozukluğu olan bireylerin ne demek istediğini makine öğrenimiyle anlayıp bunu akıcı bir şekilde sese çeviren uygulama.",
+                        "AI Destekli Artikülasyon Analizi: Hastanın dil ve dudak hareketlerini kameradan 3D modelleyip ideal harf çıkışını görsel olarak öğreten yazılım."
+                    ],
+                    "futureProjects": [
+                        "Doğrudan beyin dalgalarını okuyup hastanın 'söylemek istediği' kelimeleri algılayarak dil kaslarına mikro sinyaller gönderen çipler.",
+                        "Her hastanın kişiliğine uyum sağlayan ve onunla sosyalleşerek konuşma terapisini 7/24 oyuna dönüştüren holografik AI terapistler."
+                    ],
+                    "imagePath": "images/ai_dil_ve_konusma_terapisi_3.jpg"
+                },
+                {
+                    "id": "p_4",
+                    "name": "Ebelik",
+                    "shortDesc": "Fetal gelişim anormalliklerinin ve prematüre riskinin makine öğrenimiyle tahmini.",
+                    "article": "Yapay zeka, gebelik ve doğum süreçlerinde hem annenin hem de bebeğin en büyük güvenlik ağına dönüşmüştür. Ebe ve doktorlar, ultrason cihazlarına entegre edilmiş görüntü işleme modelleri sayesinde fetüsün kalp kapakçıklarındaki milimetrik bir anomaliden bile anında haberdar olabilmektedir. AI, bebeğin ağırlık, kemik boyu ve hareket verilerini milyonlarca sağlıklı gebelik verisiyle karşılaştırarak gelişim geriliğini aylar öncesinden tahmin edebilir.\n\nDoğum anında anne karnına yerleştirilen akıllı sensörler, rahim kasılmalarının şiddetini ve bebeğin kalp atışlarındaki oksijensizlik (hipoksi) belirtilerini saniye saniye analiz eder. Yapay zeka, sezaryen müdahalesi gerekip gerekmediğini kasılma paternlerine bakarak ebelere çok önceden haber verir, böylece riskli durumlar tamamen ortadan kaldırılır.",
+                    "pastProjects": [
+                        "PeriWatch Vigilance: Doğum sırasındaki fetal monitör verilerini saniyeler içinde analiz edip anormallik durumunda ebelere alarm veren AI yazılımı.",
+                        "Akıllı Ultrason AI: Standart bir ultrasonda bebeğin yüzünü, kalbini ve beyin kıvrımlarını otomatik işaretleyip anomalileri renklendiren sistem."
+                    ],
+                    "futureProjects": [
+                        "Prematüre doğan bebeklerin nabız ve beyin aktivitelerine göre küvöz içindeki oksijen, ısı ve ışık seviyesini saliseler içinde optimize eden otonom AI küvözler.",
+                        "Giyilebilir akıllı kumaşlar sayesinde annenin kasılmalarını evden izleyip 'doğumun tam olarak kaç saat sonra başlayacağını' hesaplayan asistanlar."
+                    ],
+                    "imagePath": "images/ai_ebelik_4.jpg"
+                },
+                {
+                    "id": "p_5",
+                    "name": "Ergoterapi",
+                    "shortDesc": "Sanal gerçeklik ve nöro-geribildirim ile günlük yaşam becerilerinin otomasyonu.",
+                    "article": "Bireylerin fiziksel, duyusal veya bilişsel engellerini aşarak günlük yaşama katılmasını sağlayan Ergoterapi, yapay zeka ile devasa bir evrim geçirdi. Eski ahşap bloklar veya basit el egzersizlerinin yerini, yapay zeka destekli Dış İskeletler (Exoskeleton) ve Biyofeedback sağlayan akıllı eldivenler aldı.\n\nYapay zeka, inme geçirmiş bir hastanın kaslarındaki en ufak sinyal aktivitesini algılayarak robotik kolu ne kadar desteklemesi gerektiğini anlık hesaplar. Hasta, sanal gerçeklik içinde mutfakta kahve yapma veya kapı açma gibi işleri yaparken; yapay zeka, hastanın zorlandığı kısımları analiz edip senaryoyu otomatik olarak kolaylaştırır veya zorlaştırır.",
+                    "pastProjects": [
+                        "Neofect Smart Glove: El rehabilitasyonu için geliştirilmiş, hastanın hareket verilerini AI ile analiz edip terapiste oyunlaştırma raporu sunan akıllı eldiven.",
+                        "VR Bilişsel Terapi: Demans veya dikkat eksikliği olan hastalar için sanal market alışverişi yaptıran ve hastanın karar verme süresini ölçen sistem."
+                    ],
+                    "futureProjects": [
+                        "Omurilik felçli hastaların beyin dalgalarını (BCI) okuyarak robotik dış iskeletleri düşünce gücüyle yürüten AI motor kognisyon modülleri.",
+                        "Hastanın evine yerleştirilip günlük yaşam aktivitelerinde nerede zorlandığını (örn. giyinme) tespit edip kişiye özel yardımcı robotik aletler tasarlayan otonom sistemler."
+                    ],
+                    "imagePath": "images/ai_ergoterapi_5.jpg"
+                },
+                {
+                    "id": "p_6",
+                    "name": "Fizyoterapi ve Rehabilitasyon",
+                    "shortDesc": "Bilgisayarlı görü (Computer Vision) ile anlık postür ve biyomekanik analizi.",
+                    "article": "Fizyoterapide insan gözünün milimetrik açıları yakalamadaki kısıtlılığı, yapay zekanın biyomekanik analiz yeteneği ile tamamen aşılmıştır. Fizyoterapistler artık hastanın yürüyüşünü (Gait Analysis) yapay zeka kameralarıyla kaydederek; kalça, diz ve ayak bileği eklemlerindeki açı sapmalarını santigratına kadar 3 boyutlu bir iskelet modeli üzerinde görebilmektedir.\n\nKas gücü ölçümlerinde yapay zeka destekli sensörler, hastanın hangi kas grubuna aşırı yüklendiğini tespit ederek çapraz bağ yırtılması veya fıtık gibi riskleri önceden haritalandırır. AI, hastanın iyileşme eğrisini analiz eder ve fizyoterapistin hazırladığı egzersiz programını her gün hastanın o anki kas yorgunluk seviyesine göre otonom olarak revize eder.",
+                    "pastProjects": [
+                        "Kaia Health: Bilgisayarlı görü (Computer Vision) kullanarak hastanın evdeki egzersiz hareketlerini telefon kamerasından izleyip duruşunu düzelten AI uygulaması.",
+                        "Robotik Yürüyüş Sistemleri (Lokomat): Hastanın bacaklarına bağlanan ve nöroplastisiteyi artırmak için hastanın katılımına göre direnci AI ile ayarlayan sistem."
+                    ],
+                    "futureProjects": [
+                        "Deri altına enjekte edilen nano-sensörlerle kas liflerindeki mikro yırtıkları tespit edip iyileşme hızını maksimize eden ultrasonik masaj robotları.",
+                        "Sporcuların antrenman videolarından kemik stresini hesaplayıp 'sakatlanmadan önceki son 48 saati' bildiren kuantum analiz modelleri."
+                    ],
+                    "imagePath": "images/ai_fizyoterapi_ve_rehabilitasyon_6.jpg"
+                },
+                {
+                    "id": "p_7",
+                    "name": "Hemşirelik",
+                    "shortDesc": "Büyük veri analizi ile kritik bakımda erken uyarı sistemleri ve otonom triyaj.",
+                    "article": "Yapay zeka, hemşirelerin üzerindeki evrak, ilaç takibi ve rutin monitör izleme yükünü devralarak onlara 'hastayla insani bağ kurma' şansını geri veriyor. Yoğun bakım ünitelerinde (ICU) hastaya bağlı onlarca cihazdan akan saniyedeki binlerce veri (nabız, oksijen, kan basıncı, solunum frekansı), yapay zeka algoritmaları tarafından tek bir merkezi beyinde işlenir.\n\nSistem, 'Sepsis' (kan zehirlenmesi) veya kalp krizini insan hemşirenin belirtileri fark etmesinden 6 ila 12 saat önce tespit edip mobil cihazlara kırmızı alarm gönderir. Ayrıca akıllı ilaç arabaları (Smart Carts), hastanın yüzünü ve barkodunu okuyarak yanlış ilaç veya yanlış doz verilmesi riskini matematiksel olarak sıfırlar.",
+                    "pastProjects": [
+                        "Epic Sepsis Model: Hastane kayıt sisteminde çalışan, kan değerlerini analiz ederek Sepsis şokunu erken tahmin eden AI algoritması.",
+                        "Moxi: Hastane koridorlarında kan tüplerini taşıyan, malzeme eksiklerini tamamlayan ve kapıları açabilen otonom destek robotu."
+                    ],
+                    "futureProjects": [
+                        "Damar yolunu kızılötesi ışınlarla 3D olarak haritalayıp, acı hissini en aza indirecek açıyla otonom iğne yapabilen nanobot asistanlar.",
+                        "Hastanın terinden ve nefesinden anlık hormon/stres analizi yapıp ortam ışığını ve müziğini sakinleştirici seviyeye getiren akıllı hasta odaları."
+                    ],
+                    "imagePath": "images/ai_hemsirelik_7.jpg"
+                },
+                {
+                    "id": "p_8",
+                    "name": "Sağlık Yönetimi",
+                    "shortDesc": "Tahmine dayalı analitik ile hastane lojistiği ve kaynak optimizasyonu.",
+                    "article": "Bir hastanenin veya sağlık kompleksinin yönetimi, yapay zeka devrimiyle tamamen 'kestirimci' (predictive) hale gelmiştir. Sağlık yöneticileri artık kararlarını geçmiş raporlara göre değil, yapay zekanın geleceği simüle eden algoritmalarına göre almaktadır. Bölgedeki hava durumu, trafik, mevsimsel grip verileri ve arama motoru trendleri birleştirilerek 'bu hafta acil servise kaç astım hastası geleceği' tahmin edilir.\n\nBu muazzam öngörü yeteneği sayesinde ameliyathane planlamaları, doktor ve hemşire vardiyaları saniyesi saniyesine optimize edilir. AI, ilaç depolarındaki stokların bitiş süresini miligramına kadar hesaplar ve otonom olarak tedarikçilere sipariş geçer, böylece milyonlarca liralık israfın ve kritik ilaç yoksunluğunun önüne geçilir.",
+                    "pastProjects": [
+                        "Qventus: Hastane yatak doluluk oranlarını ve acil servis tıkanıklıklarını tahmin edip hastaları optimum hızda taburcu veya sevk eden yapay zeka platformu.",
+                        "Ameliyathane Optimizasyon AI: Hangi cerrahın, hangi ameliyatı ne kadar sürede bitireceğini geçmiş verilerinden hesaplayarak günlük ameliyat sayısını %20 artıran sistem."
+                    ],
+                    "futureProjects": [
+                        "Tüm hastanenin iklimlendirme, enerji, tıbbi atık ve personel yönetimini merkezi tek bir 'Kuantum Yönetici Yapay Zeka'ya bırakan tam otonom akıllı hastaneler.",
+                        "Şehirdeki tüm hastaneleri birbirine bağlayan ve bir afet anında ambulansları saniyelik yatak durumuna göre otonom yönlendiren bulut beyinler."
+                    ],
+                    "imagePath": "images/ai_saglik_yonetimi_8.jpg"
+                },
+                {
+                    "id": "p_9",
+                    "name": "Sosyal Hizmet",
+                    "shortDesc": "Makine öğrenimi ile çocuk istismarı, aile içi şiddet ve intihar riskinin önceden haritalanması.",
+                    "article": "Sosyal hizmetlerin doğasındaki karmaşık insan ilişkileri ve kriz durumları, yapay zekanın örüntü tanıma yeteneğiyle desteklenmektedir. Uzmanlar artık devasa devlet kayıtları, hastane giriş-çıkışları, polis raporları ve okul devamsızlık verilerini entegre eden yapay zeka sistemleri kullanıyor. Sistem, örneğin bir çocuğun acil servise sık başvurmasını ve okuldaki not düşüşünü analiz ederek 'potansiyel ihmal veya istismar' riskine kırmızı bayrak ekler.\n\nAlgoritmalar, intihar eğilimi olan bireylerin sosyal medya paylaşımlarındaki dil modellerini (NLP - Doğal Dil İşleme) analiz ederek kriz anından önce sosyal hizmet uzmanlarına uyarı gönderir. Yapay zeka, karar verici değil ancak uzmanların gözünden kaçabilecek ince detayları yakalayan, hayat kurtarıcı bir 'radara' dönüşmüştür.",
+                    "pastProjects": [
+                        "AFST (Allegheny Family Screening Tool): Çocuk koruma hizmetlerinde, gelen ihbarların risk skorunu makine öğrenimi ile hesaplayıp aciliyet sırasına koyan algoritma.",
+                        "Crisis Text Line AI: Mesajlaşma üzerinden destek alan bireylerin kelimelerinden intihar riskini yüzdelik olarak hesaplayıp acil müdahale ekiplerini yönlendiren sistem."
+                    ],
+                    "futureProjects": [
+                        "Toplumdaki yoksulluk, göç ve suç oranlarını mahalle mahalle simüle edip 10 yıl sonraki kriz alanlarını tespit eden otonom sosyal politika mimarları.",
+                        "Travma mağduru bireylere 7/24 psikososyal ilk yardım uygulayabilen, empatik mimiklere sahip ve tamamen duygu-odaklı sanal yapay zeka terapistler."
+                    ],
+                    "imagePath": "images/ai_sosyal_hizmet_9.jpg"
+                },
+                {
+                    "id": "p_10",
+                    "name": "Anestezi",
+                    "shortDesc": "Kestirimci farmakokinetik ve otonom sedasyon sistemleri.",
+                    "article": "Anesteziyolojide saniyelerin önemi hayati boyuttadır ve yapay zeka bu saniyeleri kusursuzca yönetir. Hastanın boy, kilo, genetik alerji profili ve ameliyatın türü gibi veriler, yapay zeka destekli kapalı döngü (closed-loop) sistemlere girildiğinde, sistem hastaya verilecek anestezi miktarını saniye saniye ayarlar.\n\nAmeliyat esnasında beyin dalgalarını (EEG), tansiyonu ve kan oksijenini izleyen makine öğrenimi modelleri, hastanın ağrı hissetmesine veya uyanmasına dair en ufak bir nörolojik sinyali algılayıp, anestezi uzmanı henüz durumu fark etmeden pompalara mikro-doz enjeksiyon emri verir. Anestezi uzmanları bu sayede teknik doz ayarlamasından çok, ameliyatın genel fizyolojik yönetimine odaklanabilmektedir.",
+                    "pastProjects": [
+                        "Sedasys: Kolonoskopi gibi kısa işlemlerde hastanın vital bulgularını okuyarak propofol dozunu otomatik ayarlayan erken dönem otonom anestezi robotu.",
+                        "Hipotansiyon Tahmin Algoritması: Ameliyat sırasında hastanın tansiyonunun ölümcül seviyelere düşeceğini 15 dakika önceden %90 doğrulukla tahmin eden AI yazılımı."
+                    ],
+                    "futureProjects": [
+                        "Genetik DNA dizilimini okuyarak hastanın tüm anestezi ilaçlarına vereceği tepkiyi moleküler düzeyde simüle eden sanal farmakoloji motorları.",
+                        "Hastanın sadece beyin dalgalarına odaklanarak, ağrı merkezini uyuşturan kimyasalsız 'nöro-frekans anestezi' kasklarının yapay zeka ile kontrolü."
+                    ],
+                    "imagePath": "images/ai_anestezi_10.jpg"
+                },
+                {
+                    "id": "p_11",
+                    "name": "Hasta Bakımı",
+                    "shortDesc": "Yaşlı ve engelli bireyler için otonom izleme ve robotik yaşam asistanları.",
+                    "article": "Hasta bakımı, yapay zeka sayesinde 7/24 kesintisiz, insan yorgunluğundan ve dikkatsizliğinden arındırılmış bir sisteme evrilmiştir. Akıllı kameralar ve yatak altı sensörleri kullanan Bilgisayarlı Görü sistemleri, yatalak hastaların yatış pozisyonunu analiz ederek yatak yarası (dekübit ülseri) oluşma riskini hesaplar ve bakıcıyı 'hastayı çevirme vakti geldi' diyerek uyarır.\n\nDemans veya Alzheimer hastalarının hareket kalıplarını öğrenen yapay zeka, hastanın gece yatağından kalkıp tehlikeli bir yöne (örneğin merdivenlere) ilerlediğini anladığı an kapıları kilitler ve ışıkları yavaşça açarak hastayı sakinleştiren ses kayıtları oynatır. Yapay zeka, hastanın güvenliğini sağlarken bağımsızlığını korumasını amaçlar.",
+                    "pastProjects": [
+                        "Cherry Home: Odalara yerleştirilen AI kameralarla hastanın vücut iskelet yapısını çizgi olarak takip edip düşme vakalarını saniyesinde bildiren sistem.",
+                        "CarePredict: Yaşlıların kollarındaki akıllı bilekliklerden veri alıp; yeme, içme, uyuma ve tuvalete gitme sürelerindeki değişimi analiz ederek enfeksiyon başlangıcını öngören yazılım."
+                    ],
+                    "futureProjects": [
+                        "Hastanın ruh halini ses tonundan anlayıp, gerektiğinde ilaçlarını kendi kollarıyla getiren ve hastayla sohbet edebilen humanoid hasta bakıcı robotlar.",
+                        "Odadaki havayı analiz ederek hastanın nefesindeki moleküllerden kanser veya enfeksiyon nüksünü tespit eden biyometrik akıllı duvarlar."
+                    ],
+                    "imagePath": "images/ai_hasta_bakimi_11.jpg"
+                },
+                {
+                    "id": "p_12",
+                    "name": "Çocuk Gelişimi",
+                    "shortDesc": "Nörogelişimsel bozuklukların erken tespiti ve uyarlanabilir öğrenme (Adaptive Learning).",
+                    "article": "Çocuk gelişiminde 'her çocuğun hızında eğitim' konsepti yapay zeka ile gerçeğe dönüştü. Çocukların tabletlerde oynadığı basit görünen eğitici oyunların arkasında devasa makine öğrenimi modelleri çalışmaktadır. Çocuk oyun içindeki bulmacaları çözerken; sistem parmak hareket hızını, tereddüt sürelerini ve hatalı tıklama örüntülerini analiz eder.\n\nElde edilen bu verilerle Disleksi, Otizm Spektrum Bozukluğu (OSB) veya Dikkat Eksikliği (DEHB) gibi durumlar, çocuk daha okula başlamadan önce %85'in üzerinde doğrulukla tespit edilebilmektedir. Yapay zeka, çocuğun zorlandığı kavramları fark edip oyunun senaryosunu tamamen o çocuğun algı yapısına göre anlık olarak baştan yazar.",
+                    "pastProjects": [
+                        "Canvas AI: Bebeklerin hareket videolarını cep telefonundan analiz ederek serebral palsi gibi motor gelişim geriliklerini aylar öncesinden tespit eden uygulama.",
+                        "Otsimo: Otizmli çocukların öğrenme hızına göre zorluk derecesini değiştiren ve çocukların konuşma becerilerini AI ile puanlayan eğitici platform."
+                    ],
+                    "futureProjects": [
+                        "Çocuğun göz bebeklerini ve beyin dalgalarını okuyarak 'hangi anda dikkatinin dağıldığını' tespit edip dikkat toparlayıcı sanal gerçeklik (VR) animasyonları üreten çipler.",
+                        "Çocuğun büyüme evresinde psikolojik gelişimini takip eden ve onunla en doğru empati kuracak kelimeleri seçen holografik yapay zeka oyun arkadaşları."
+                    ],
+                    "imagePath": "images/ai_cocuk_gelisimi_12.jpg"
+                },
+                {
+                    "id": "p_13",
+                    "name": "Eczane Hizmetleri",
+                    "shortDesc": "Farmakogenomik veri entegrasyonu ve sıfır hatalı ilaç dağıtım sistemleri.",
+                    "article": "Geleceğin eczanelerinde yapay zeka, raftan ilaç veren bir sistemden çok daha fazlasıdır; kişiye özel farmakoloji merkezidir. Bir reçete sisteme düştüğünde AI, hastanın tüm geçmiş tahlillerini, genetik profilini (DNA analizi) ve kullandığı diğer 10 farklı ilacı aynı anda analiz eder. İnsan zihninin hesaplayamayacağı kompleks ilaç-ilaç veya ilaç-gen etkileşimlerini bulup, 'Bu ilaç hastada karaciğer enzimlerini tehlikeli boyuta çıkarabilir' diyerek hekime alternatif molekül önerir.\n\nHastane eczanelerinde ise devasa robotik kollar ve yapay zeka destekli tasnif sistemleri, barkodları nanosaniyeler içinde okuyarak hastaların günlük dozlarını (unit-dose) el değmeden paketler, dozaj hatalarından kaynaklı ölümleri tamamen sıfırlar.",
+                    "pastProjects": [
+                        "MedAvail: Hastaların uzaktan hekimle görüşüp anında reçeteli ilaçlarını alabildiği, AI destekli tam otonom kiosk eczaneler.",
+                        "Pharmabot: İlaç deposundaki son kullanma tarihlerini, bölgesel salgın hastalık trendleriyle birleştirip hangi ilaçtan ne kadar sipariş verilmesi gerektiğini hesaplayan stok AI."
+                    ],
+                    "futureProjects": [
+                        "Evlerdeki 3D yazıcılara bağlanıp hastanın o günkü tansiyon/şeker durumuna göre tam miligramında sentezlenmiş özel 'günlük haplar' basan yapay zeka algoritmaları.",
+                        "Kanser hastalarının tümör genetiğine göre, her bir hücreye spesifik saldıracak kişiselleştirilmiş nano-ilaç moleküllerini otonom tasarlayan kuantum ağları."
+                    ],
+                    "imagePath": "images/ai_eczane_hizmetleri_13.jpg"
+                },
+                {
+                    "id": "p_14",
+                    "name": "İlk ve Acil Yardım",
+                    "shortDesc": "Tahmine dayalı triyaj, otonom ambulans filoları ve anlık travma analizi.",
+                    "article": "Acil durumlarda geçen her saniye yaşam ve ölüm arasındaki ince çizgidir. Acil çağrı merkezlerine entegre edilen yapay zeka (Ses Tanıma ve Doğal Dil İşleme) sistemleri, arayan kişinin sesindeki stres frekansını, nefes alış ritmini ve arka plandaki sesleri analiz ederek olayın ciddiyetini otonom olarak (Triyaj) derecelendirir.\n\nParamedikler olay yerine giderken yapay zeka, şehirdeki tüm trafik ışıklarını ambulansın rotasına göre yeşile çevirir. Olay yerinde çekilen bir travma fotoğrafı saniyeler içinde buluta gönderilir; AI kanama miktarını, kırık şüphesini ve yanık derecesini hesaplayarak acil servisteki doktorlara 'Ameliyathaneyi hazırla, 5 dakika içinde iç kanamalı hasta geliyor' uyarısını otomatik geçer.",
+                    "pastProjects": [
+                        "Corti AI: Danimarka'da acil çağrı merkezlerinde çalışan, arayanın sesinden kalp krizi geçirdiğini %93 doğrulukla tespit eden ve operatörü yönlendiren yapay zeka.",
+                        "RapidAI: Ambulansta çekilen beyin tomografilerini saniyeler içinde işleyip felç (inme) durumunu tespit eden mobil derin öğrenme yazılımı."
+                    ],
+                    "futureProjects": [
+                        "Tamamen otonom uçan dron ambulansların, kazazedenin konumuna inip robotik kollarla ilk yardım (CPR) uygulamasını sağlayan sistemler.",
+                        "Yapay kan üreten cihazlara entegre edilmiş, hastanın kan kaybını anlık analiz edip olay yerinde ex-vivo organ kurtarma prosedürleri başlatan nano-AI birimleri."
+                    ],
+                    "imagePath": "images/ai_i̇lk_ve_acil_yardim_14.jpg"
+                },
+                {
+                    "id": "p_15",
+                    "name": "Tıbbi Dokümantasyon ve Sekreterlik",
+                    "shortDesc": "Klinik kodlama otomasyonu ve doğal dil işleme (NLP) ile evrak yükünün sıfırlanması.",
+                    "article": "Sağlık sektörünün en büyük gizli yükü olan veri girişi ve evrak işleri, Büyük Dil Modelleri (LLM) ile tarihe karışıyor. Bir doktor hastayı muayene ederken, odada bulunan yapay zeka asistanı sohbeti dinler, gereksiz diyalogları eler ve saniyeler içinde tıbbi literatüre uygun, yapılandırılmış bir epikriz raporu oluşturur.\n\nYapay zeka, doktorun koyduğu tanıyı milyarlarca kelimelik veri tabanından geçirerek uygun ICD-10 (Uluslararası Hastalık Sınıflandırması) koduna otonom olarak çevirir ve faturalandırma birimine iletir. Tıbbi sekreterler, veri giren kişiler olmaktan çıkıp, yapay zekanın eğittiği sağlık verilerinin güvenliğini ve akışını yöneten 'Veri Yöneticilerine' dönüşmektedir.",
+                    "pastProjects": [
+                        "Nuance Dragon Ambient eXperience (DAX): Doktor ve hasta arasındaki konuşmayı arka planda dinleyip klinik notlara dönüştüren yapay zeka asistanı.",
+                        "Autocoding AI: Hastanenin geçmiş binlerce pdf ve karmaşık hasta dosyasını okuyup, içindeki tanı ve tedavileri SGK sistemine uygun kodlarla faturalandıran RPA sistemleri."
+                    ],
+                    "futureProjects": [
+                        "Tüm hastane evrak sistemini ortadan kaldıran, hastanın sesi ve biyometriği ile tüm geçmişini holografik bir dosyada toplayan Blockchain-AI entegrasyonları.",
+                        "Doktorun aklından geçenleri BCI (Beyin-Bilgisayar Arayüzü) ile okuyup tıbbi raporu kelimelere dökülmeden yazan kuantum dokümantasyon algoritmaları."
+                    ],
+                    "imagePath": "images/ai_tibbi_dokumantasyon_ve_sekreterlik_15.jpg"
+                },
+                {
+                    "id": "p_16",
+                    "name": "Optisyenlik",
+                    "shortDesc": "Retinal anomali taraması, akıllı cam kalibrasyonu ve biyometrik göz haritalama.",
+                    "article": "Optisyenlik sadece numaralı cam kesmekten çıkıp, gözün yapay zeka ile haritalandırıldığı yüksek mühendislik alanına dönüşmüştür. Gelişmiş oküler tarayıcılar, hastanın retinasındaki damar ağlarını fotoğrafladığında yapay zeka sadece göz kusurunu değil; yüksek tansiyon, diyabet, Alzheimer ve kalp krizine dair mikro-belirtileri sistemik olarak tespit edebilir.\n\nGözlük çerçevesi ve cam üretiminde AI, hastanın burun yapısını, elmacık kemiklerini ve iki gözü arasındaki asimetriyi 3D tarayarak, en ideal odak noktasını milimetrik düzeyde (biyometrik akıllı cam) hesaplar. Sanal aynalar, hastanın yüzünde binlerce farklı çerçeveyi AI ile simüle ederek en uygun tasarımı otonom olarak önerir.",
+                    "pastProjects": [
+                        "IDx-DR: Diyabetik retinopatiyi retinal fotoğraflardan, bir doktora ihtiyaç duymadan %100 otonom teşhis eden FDA onaylı ilk yapay zeka sistemi.",
+                        "Topology Eyewear: Kullanıcının yüzünü iPhone kamerasıyla 30.000 noktadan tarayıp, AI algoritmasıyla yüzüne kusursuz oturan kişiselleştirilmiş 3D gözlükler üreten uygulama."
+                    ],
+                    "futureProjects": [
+                        "Ortamın ışığına, kullanıcının göz yorgunluğuna ve odaklandığı mesafeye göre odak noktasını saliseler içinde sıvı kristallerle değiştiren AI nöro-lensler.",
+                        "Kullanıcının göz tansiyonunu (Glokom) 7/24 takip edip damla dozu gerektiğinde gözdeki nano-rezervuarları tetikleyen akıllı kontakt lens sistemleri."
+                    ],
+                    "imagePath": "images/ai_optisyenlik_16.jpg"
+                },
+                {
+                    "id": "p_17",
+                    "name": "Yaşlı Bakımı",
+                    "shortDesc": "Davranışsal örüntü tanıma, demans yönetimi ve duygusal zeka destekli robotik refakat.",
+                    "article": "Dünya nüfusu yaşlanırken, yapay zeka yaşlı bakımındaki insan gücü açığını muazzam bir verimlilikle kapatıyor. Ortam sensörlerinden toplanan verileri analiz eden makine öğrenimi modelleri, yaşlı bir bireyin yürüme hızındaki mikro-yavaşlamaları, buzdolabını açma sıklığındaki azalmayı veya konuşmasındaki ton değişimlerini aylar öncesinden tespit ederek Alzheimer başlangıcı veya depresyon alarmı verebilir.\n\nYapay zeka destekli sosyal robotlar, yaşlılarla eski anıları üzerine sohbet edebilir, onlara ilaçlarını hatırlatabilir ve duygu tanıma (Emotion Recognition) algoritmalarıyla yüzlerindeki hüznü algılayıp aileyi bilgilendirebilir. Yaşlı bakım evleri, reaktif bir sistemden tamamen proaktif ve koruyucu akıllı tesislere dönüşmektedir.",
+                    "pastProjects": [
+                        "Zora Robot: Yaşlı bakım merkezlerinde egzersiz yaptıran, şarkı söyleyen ve yaşlıların bilişsel seviyesini interaktif oyunlarla ölçen humanoid robot.",
+                        "AI Destekli Akıllı Zeminler (Sensory Floors): Yere düşme basıncını anında algılayan ve düşüşün bayılma mı yoksa kayma mı olduğunu analiz edip hemşireye spesifik rapor atan zemin sensörleri."
+                    ],
+                    "futureProjects": [
+                        "Demans hastalarının unuttuğu hatıraları onlara sesli ve görsel hologramlar halinde evin içinde canlandırarak hafıza kaybını yavaşlatan AI terapi sistemleri.",
+                        "Kasları zayıflamış yaşlılar için giysi gibi giyilen, kişinin hareket niyetini AI ile okuyup merdiven çıkmasını sağlayan yumuşak (soft-robotics) dış iskeletler."
+                    ],
+                    "imagePath": "images/ai_yasli_bakimi_17.jpg"
+                },
+                {
+                    "id": "p_18",
+                    "name": "Ağız ve Diş Sağlığı",
+                    "shortDesc": "Radyografik derin öğrenme ve önleyici dental zeka.",
+                    "article": "Ağız ve Diş Sağlığı teknikerlerinin ve uzmanlarının çalışma şekli, görüntüleme yapay zekası (Computer Vision) sayesinde radikal bir şekilde değişiyor. Çekilen periapikal veya panoramik röntgenler, artık doğrudan bir yapay zeka katmanından (AI Layer) geçerek ekrana düşüyor. Sistem saniyeler içinde apseleri, kök ucu kistlerini, gömülü yirmilik yaş dişlerinin sinire olan tehlikeli yakınlığını ve hatta gelecekte oluşabilecek kemik erimelerini renkli haritalarla (Heatmap) doktora sunuyor.\n\nAyrıca, hastanın ağız içi 3D tarayıcıyla saniyeler içinde oluşturulan dijital modellemesi üzerinde yapay zeka, dişlerin yıllar içindeki aşınma oranını hesaplayarak bruksizm (diş sıkma) sorununu hasta bile fark etmeden teşhis edebilir.",
+                    "pastProjects": [
+                        "VideaHealth: Binlerce diş röntgeni ile eğitilmiş, çürük ve kemik kayıplarını insan gözünden 30 kat daha hassas işaretleyen bulut tabanlı AI algoritması.",
+                        "Denti.AI: Periodontal ölçümleri ses komutuyla algılayıp, diş eti çekilme grafiğini otonom çizen ve diş kaybı riskini hesaplayan sistem."
+                    ],
+                    "futureProjects": [
+                        "Ağız içi bakterilerinin DNA'sını saniyeler içinde sekanslayıp, kişinin 10 yıl içinde yaşayabileceği tüm diş hastalıklarını engelleyen AI mikrobiyom spreyleri.",
+                        "Diş minesini lazer ve nanoteknoloji kullanarak otonom olarak molekül molekül onaran mini ağız içi tamir robotları."
+                    ],
+                    "imagePath": "images/ai_agiz_ve_dis_sagligi_18.jpg"
+                },
+                {
+                    "id": "p_19",
+                    "name": "Odyometri",
+                    "shortDesc": "Otomatik saf ses analizi ve makine öğrenimi tabanlı nöral işitme cihazı kalibrasyonu.",
+                    "article": "İşitme kayıplarının teşhisinde kullanılan odyometri testleri, hastanın tepkisine dayalı sübjektif bir işlem olmaktan çıkıp objektif veri analizine dönüşmüştür. Yapay zeka algoritmaları, sadece hastanın butona basma süresini değil, elektrotlar vasıtasıyla beyin sapından gelen işitsel tepkileri (ABR - İşitsel Beyin Sapı Cevabı) analiz ederek, bebeklerde dahi hangi frekanslarda ne kadar kayıp olduğunu %99 kesinlikle hesaplar.\n\nİşitme cihazı uyarlamalarında AI, hastanın bulunduğu ortamın akustik haritasını (restoran gürültüsü, rüzgar sesi vb.) saniyede binlerce kez çıkarıp gürültü frekanslarını otonom filtreler. Bu sayede cihaz, hastanın odaklandığı insan sesini yönsel algılayarak yapay bir kulak zarı gibi mükemmel izolasyon sağlar.",
+                    "pastProjects": [
+                        "Whisper AI: Normal işitme cihazlarından farklı olarak, sürekli güncellenen bir AI beyni kullanan ve her türlü gürültülü ortamda arka plan sesini makine öğrenimiyle silen işitme cihazı.",
+                        "Otohub: Odyogram test sonuçlarını devasa veri tabanlarıyla kıyaslayıp işitme kaybının ardındaki nörolojik sebebi doktora raporlayan tanısal sistem."
+                    ],
+                    "futureProjects": [
+                        "Hasarlı kulak tüylerini gen tedavisi ile onarmak için nano-robotları frekans dalgalarıyla yönlendiren kuantum ses frekans odaları.",
+                        "Kulağa takılmayan, sadece beyin sapına yansıtılan sinyallerle sağır bireylere doğrudan sesi ileten 'AI Sesli Kortex Arayüzleri'."
+                    ],
+                    "imagePath": "images/ai_odyometri_19.jpg"
+                }
+            ]
+        },
+        {
+            "id": "s2",
+            "name": "Sağlık Teknolojileri ve Yönetimi",
+            "icon": "🧬",
+            "professions": [
+                {
+                    "id": "p_20",
+                    "name": "Biyomedikal Cihaz Teknolojisi",
+                    "shortDesc": "Kestirimci bakım (Predictive Maintenance) ve IoT tabanlı tıbbi cihaz optimizasyonu.",
+                    "article": "Hastanelerdeki MR, BT veya yaşam destek üniteleri gibi milyon dolarlık cihazların arızalanması insan hayatına mal olabilir. Biyomedikal mühendisliğinde yapay zeka, bu cihazların içindeki binlerce sensörden (sıcaklık, voltaj, titreşim) akan veriyi Nesnelerin İnterneti (IoT) ağlarında toplayıp işler. Cihaz henüz sorunsuz çalışırken bile, bir motorun titreşimindeki mikro-değişimi algılayan AI, 'X parçası 36 saat sonra bozulacak' şeklinde kestirimci bakım (Predictive Maintenance) uyarısı verir.\n\nBu algoritmalar ayrıca cihazların kalibrasyonunu hasta yoğunluğuna göre otonom olarak ayarlayarak radyasyon dozajını minimize eder ve cihaz ömrünü uzatır. Biyomedikalciler artık tamirci değil, tıbbi cihazların veri analisti konumundadır.",
+                    "pastProjects": [
+                        "GE Healthcare Edison: Tıbbi cihazlardan toplanan verileri birleştirip hastane genelindeki donanım verimliliğini ve arıza risklerini anlık izleyen platform.",
+                        "AI Destekli Tomografi (CT) Optimizasyonu: Tarama süresini yarı yarıya düşürüp radyasyon miktarını minimuma indirirken görüntüyü AI ile 8K netleştiren yazılımlar."
+                    ],
+                    "futureProjects": [
+                        "Kendi arızasını teşhis edip, 3D yazıcı ile bozulan parçasını otonom olarak basıp kendi kendini tamir edebilen kuantum MR cihazları.",
+                        "Hastanın biyometrik verilerine göre şekil değiştiren, yapay zeka kontrollü canlı biyo-materyal sedyeler ve tekerlekli sandalyeler."
+                    ],
+                    "imagePath": "images/ai_biyomedikal_cihaz_teknolojisi_20.jpg"
+                },
+                {
+                    "id": "p_21",
+                    "name": "Diş Protez Teknolojisi",
+                    "shortDesc": "CAD/CAM otomasyonu, derin öğrenme tabanlı dental morfoloji ve 3D biyo-baskı.",
+                    "article": "Diş protez ve laboratuvar süreçleri, alçı kalıpların yerini tamamen dijital iş akışlarına (Digital Workflow) bırakmasıyla AI destekli bir üretim merkezine dönüşmüştür. Diş protez teknikerleri, yapay zeka destekli CAD/CAM yazılımlarına hastanın 3D ağız taramasını yüklediklerinde; AI, hastanın yaşına, yüz asimetrisine ve karşı çenedeki dişlerin kapanış açılarına bakarak en mükemmel kron, köprü veya protez tasarımını saniyeler içinde çizer.\n\nDerin öğrenme algoritmaları, on binlerce doğal diş formunu analiz ederek yeni proteze 'yapay' değil tamamen 'doğal ve aşınmış' bir morfoloji ekler. Tasarlanan protezler, 5 eksenli robotik kazıyıcılar (Milling) veya seramik 3D yazıcılar tarafından milimetrenin binde biri (mikron) hassasiyetle el değmeden üretilir.",
+                    "pastProjects": [
+                        "3Shape Automate: Tasarımcının müdahalesine gerek kalmadan, makine öğrenimi ile tek kuron ve gece plağı tasarımlarını %100 otonom çizen dünyanın ilk dental AI servisi.",
+                        "Akıllı Porselen Fırınları: Seramik pişirme esnasında rengin opaklığını kameralarla izleyip ısıyı anlık değiştirerek mükemmel diş rengini (shade) tutturan otonom fırınlar."
+                    ],
+                    "futureProjects": [
+                        "Kök hücre ve kalsiyum bazlı biyo-mürekkepler (bio-ink) kullanarak gerçek mine ve dentin tabakasına sahip canlı dişler basabilen 4D yazıcılar.",
+                        "Ağız içi tarama anında protezi çenenin içine holografik olarak yansıtıp dişin çiğneme basıncını fizik simülasyonlarıyla hesaplayan AI sistemleri."
+                    ],
+                    "imagePath": "images/ai_dis_protez_teknolojisi_21.jpg"
+                },
+                {
+                    "id": "p_22",
+                    "name": "Tele-Sağlık Teknikerliği",
+                    "shortDesc": "Sanal triyaj, uzaktan kronik hastalık yönetimi ve sanal gerçeklik (VR) klinikleri.",
+                    "article": "Tele-Sağlık sadece görüntülü doktor görüşmesi olmaktan çıkıp, otonom teşhis ağlarına evrilmiştir. Tele-Sağlık teknikerleri, hastaların evlerindeki IoT tabanlı medikal cihazlardan (akıllı tartılar, EKG özellikli saatler, kan şekeri sensörleri) gelen devasa veriyi bulutta yöneten sistemleri koordine eder. Yapay zeka, binlerce hastanın anlık verisini izler ve tehlike arz eden değerleri (örn. artan kalp ritmi) anında filtreleyip doktorun önüne kırmızı kodla düşürür.\n\nYapay zeka destekli medikal sohbet botları, hastanın semptomlarını derinlemesine sorgular, tıbbi geçmişiyle çapraz referans yapar ve %80 oranında doğru bir ön tanı koyarak hastayı doğru branşın sanal bekleme odasına aktarır (Sanal Triyaj).",
+                    "pastProjects": [
+                        "Babylon Health AI: Hastaların şikayetlerini dinleyip, dünyadaki güncel medikal makalelerle kıyaslayarak ön teşhis koyan ve doktor randevusu planlayan sistem.",
+                        "Tytocare: Hastanın evinde kendi kulağını, boğazını ve ciğer seslerini AI destekli rehberlikle doktora canlı aktarabildiği ev muayene kiti."
+                    ],
+                    "futureProjects": [
+                        "Hastanın akıllı telefon kamerasından yüzündeki kan akışını, stres seviyesini ve mikro-mimiklerini okuyarak anında tam kan sayımı (tahmini) yapan optik AI algoritmaları.",
+                        "Doktorun holografik olarak hastanın oturma odasına yansıdığı ve fiziksel dokunma hissini ileten haptik eldivenlerle evden muayene yapabildiği kuantum ağlar."
+                    ],
+                    "imagePath": "images/ai_tele-saglik_teknikerligi_22.jpg"
+                },
+                {
+                    "id": "p_23",
+                    "name": "Tıbbi Veri İşleme Teknikerliği",
+                    "shortDesc": "Veri anonimleştirme, NLP tabanlı klinik veri madenciliği ve öngörücü veri modelleme.",
+                    "article": "Sağlık sektörü dünyanın en büyük verisini (Big Data) üretir. Tıbbi veri işleme uzmanları, doktorların yazdığı milyonlarca sayfalık serbest metni (doktor notları, ameliyat raporları) yapılandırılmış bilgiye dönüştürmek için Büyük Dil Modellerini (LLM) ve Doğal Dil İşleme (NLP) algoritmalarını kullanır. Yapay zeka, karmaşık bir ameliyat notunun içinden hastanın reaksiyonunu, ilacın yan etkisini çeker ve global araştırma havuzuna anonimleştirerek ekler.\n\nBu devasa veri madenciliği sayesinde; örneğin 'A ilacı ile B ilacını kullanan 60 yaş üstü kadınlarda 5 yıl sonra kemik erimesi riski artıyor' gibi insan beyninin asla yakalayamayacağı korelasyonlar tespit edilir. Tıbbi veri, yapay zekanın yakıtıdır.",
+                    "pastProjects": [
+                        "Amazon Comprehend Medical: Tıbbi metinleri otonom olarak okuyup, içindeki tanı, ilaç ve dozaj bilgilerini ayrıştıran NLP makine öğrenimi servisi.",
+                        "Deep Patient: Mount Sinai Hastanesi'nin 700.000 hasta kaydını analiz ederek hastaların şizofreni ve diyabet dahil birçok hastalığa yakalanma riskini aylar öncesinden bulan model."
+                    ],
+                    "futureProjects": [
+                        "Tüm dünya hastanelerindeki verileri Blockchain ve Federated Learning ile eşzamanlı birleştirip, yeni bir virüs çıktığı saniye en uygun ilacı sentezleyen küresel AI ağı.",
+                        "Hastanın yaşam boyu tüm verisini (genetik, finansal, psikolojik) tek bir kripto-DNA zincirine bağlayıp kusursuz dijital ikizler (Digital Twin) yaratan sistemler."
+                    ],
+                    "imagePath": "images/ai_tibbi_veri_i̇sleme_teknikerligi_23.jpg"
+                },
+                {
+                    "id": "p_24",
+                    "name": "Dijital Sağlık Sistemleri Teknikerliği",
+                    "shortDesc": "Sistem entegrasyonu, bulut tabanlı sağlık IoT altyapısı ve yapay zeka mimarisi.",
+                    "article": "Bir hastanenin uçtan uca dijitalleşmesi; robotik cerrahi cihazlarından giyilebilir akıllı sensörlere, hasta kayıt sisteminden akıllı iklimlendirmeye kadar her şeyin birbiriyle konuşmasını gerektirir. Dijital sağlık teknikerleri, bu kompleks IoT (Nesnelerin İnterneti) ekosistemini yönetir. Yapay zeka, bu devasa ağın beyni olarak çalışır; yoğun bakımdaki bir cihazın ağ trafiğini analiz ederek siber saldırıları saniyesinde engeller.\n\nHL7 ve FHIR gibi sağlık verisi protokolleri, makine öğrenimi sayesinde otonom olarak dönüştürülür. Sistem, hastanın akıllı saatinden gelen kalp ritim bozukluğunu alır, doğrudan kardiyoloğun ekranına yansıtır ve aynı anda hastanenin acil kod sistemini hazır bekletir.",
+                    "pastProjects": [
+                        "Philips HealthSuite: Hastane içindeki tüm cihazları ve hasta verilerini bulutta tek bir merkezde toplayıp, AI ile klinik karar destek sunan dijital platform.",
+                        "Hastanelerde AI Siber Güvenliği: Tıbbi cihazlara (kalp pilleri, MR) yönelik dışarıdan gelebilecek hacking girişimlerini örüntü tanıma ile anında engelleyen nöral ağlar."
+                    ],
+                    "futureProjects": [
+                        "Hastane binasının kendisinin yaşayan bir organizma gibi davrandığı, hasta içeri girdiği an yüz tanıma ile kaydını açıp, koridordaki ışıkları onun yoluna göre yakan mimari yapay zekalar.",
+                        "İnsan vücuduna enjekte edilmiş milyonlarca nano-botun internet üzerinden ana hastane sunucularıyla haberleşerek anlık anti-virüs yazılımı günceller gibi bağışıklık güncellemesi alması."
+                    ],
+                    "imagePath": "images/ai_dijital_saglik_sistemleri_teknikerligi_24.jpg"
+                },
+                {
+                    "id": "p_25",
+                    "name": "Kozmetik Teknolojisi",
+                    "shortDesc": "Kişiselleştirilmiş formülasyon, biyokimyasal analiz ve bilgisayarlı cilt haritalama.",
+                    "article": "Kozmetik ve dermatoloji, herkes için tek tip ürün üretiminden, tamamen DNA ve cilt analizine dayalı kişiselleştirilmiş (Hyper-Personalized) formülasyonlara evrilmiştir. Gelişmiş derin öğrenme algoritmaları, kullanıcının cep telefonuyla çektiği bir yüz fotoğrafından bile ciltteki mikroskobik gözenek tıkanıklıklarını, melanin dağılımını, ince kırışıklıkların derinliğini ve UV hasarını %98 doğrulukla analiz edebilir.\n\nYapay zeka, sadece sorunları tespit etmekle kalmaz; hava durumu (nem, UV endeksi), kirlilik seviyesi ve kişinin genetik geçmişini hesaba katarak, devasa kimyasal kütüphaneleri saniyeler içinde tarar. Ardından kişinin o günkü cildine en uygun aktif bileşenlerin (hyaluronik asit, retinol vb.) miligramlık oranlarını çıkararak robotik laboratuvarlara özel üretim emri verir.",
+                    "pastProjects": [
+                        "L'Oréal Perso (AI Skincare): Kullanıcının yüz fotoğrafını, yerel hava durumunu ve hava kirliliğini AI ile analiz ederek anında cihaz içinde kişiye özel krem karıştıran akıllı donanım.",
+                        "ModiFace: Artırılmış gerçeklik (AR) ve makine öğrenimini birleştirerek makyaj veya saç boyasının kişinin yüzünde saniye saniye nasıl duracağını kusursuz simüle eden uygulama."
+                    ],
+                    "futureProjects": [
+                        "Ciltteki biyomikrobiyom haritasını anlık okuyup ter yoluyla vücuttan atılan stres hormonlarını nötralize edecek parfüm ve kremleri saniyeler içinde sentezleyen akıllı aynalar.",
+                        "Hücre yaşlanmasını hücresel düzeyde genetik analizle hesaplayıp, cildin kendini onarması için gereken RNA dizilimini içeren 'Dijital Biyolojik Kremler' geliştiren sistemler."
+                    ],
+                    "imagePath": "images/ai_kozmetik_teknolojisi_25.jpg"
+                },
+                {
+                    "id": "p_26",
+                    "name": "Tıbbi Görüntüleme Teknikleri",
+                    "shortDesc": "Radyolojik derin öğrenme, MR/BT optimizasyonu ve otonom anomali tespiti.",
+                    "article": "Radyoloji teknikeri ve radyologların dünyası, yapay zekanın sağladığı piksel düzeyindeki veri analiziyle tamamen başka bir boyuta geçmiştir. Sadece görüntü çekmekle kalmayan yeni nesil MR ve Tomografi cihazları, görüntüleme esnasında saniyede milyonlarca işlemi (Convolutional Neural Networks) çalıştırarak hastanın kemik, damar ve doku yapılarını katman katman ayrıştırır.\n\nİnsan gözünün gri tonlar arasında kaybolabileceği, 2 milimetrelik bir akciğer nodülü (erken evre kanser şüphesi), yapay zeka tarafından kırmızı renkle (heatmap) işaretlenir ve risk skoru (Malignancy Score) anında doktorun ekranına düşer. Ayrıca AI algoritmaları, çekim sırasındaki bulanıklıkları matematiksel olarak düzelterek tarama sürelerini yarı yarıya düşürür.",
+                    "pastProjects": [
+                        "Aidoc: Hastanelerin acil servislerinde beyin kanaması, omurga kırığı veya akciğer embolisi gibi ölümcül durumları tomografiden ilk saniyede tespit edip doktoru acil uyaran yazılım.",
+                        "Subtle Medical (SubtleMR): Derin öğrenme kullanarak MR ve PET taramalarının kalitesini yapay olarak artırıp çekim süresini %60 kısaltan görüntü iyileştirme algoritması."
+                    ],
+                    "futureProjects": [
+                        "X-ışını veya manyetik alan kullanmadan, tamamen zararsız kuantum sensörlerle saniyeler içinde vücudun hücresel düzeyde 3D hologramını çıkaran cihazlar.",
+                        "Görüntüleme sonucuna bakarak hastanın 10 yıl sonraki kemik erimesi veya kalp büyümesi haritasını %100 otonom simüle eden öngörücü zaman-makinesi AI'ları."
+                    ],
+                    "imagePath": "images/ai_tibbi_goruntuleme_teknikleri_26.jpg"
+                },
+                {
+                    "id": "p_27",
+                    "name": "Tıbbi Laboratuvar Teknikleri",
+                    "shortDesc": "Dijital patoloji, otomatik hücre segmentasyonu ve spektroskopik yapay zeka.",
+                    "article": "Kan, idrar ve doku numunelerinin incelenmesi, mikroskop başında geçirilen uzun saatlerden çıkıp devasa bir otonom analiz sürecine dönüşmüştür. Dijital patolojide, doku örnekleri dev tarayıcılarla yüksek çözünürlüklü dijital görüntülere aktarılır. Yapay zeka algoritmaları, milyonlarca hücrenin her birinin şeklini, çekirdek büyüklüğünü ve boyanma paternini aynı anda tarayarak kanserli hücreleri milyarlarca sağlıklı hücre arasından saniyesinde cımbızla seçer.\n\nHematoloji (kan) analizlerinde yapay zeka, lökosit tiplerini ayırmakla kalmaz, kan hücrelerindeki şekil bozukluklarını analiz ederek nadir görülen genetik anemi türlerini veya erken evre lösemiyi henüz kan tablosu bozulmadan matematiksel örüntülerle tespit edebilir.",
+                    "pastProjects": [
+                        "Paige.AI: Prostat ve meme kanseri teşhisinde binlerce patoloji slaytını tarayıp kanserli bölgeleri onkolojik doğrulukla işaretleyen ilk FDA onaylı klinik AI.",
+                        "CellaVision: Kan yayması mikroskopisini robotik olarak otonom yapan ve yapay sinir ağları ile akyuvar (WBC) hücre tiplerini otomatik sınıflandıran laboratuvar sistemi."
+                    ],
+                    "futureProjects": [
+                        "Küçük bir kan damlasından 10.000 farklı hastalığın varlığını kuantum kimyasal sensörler ve derin öğrenme ile anında söyleyebilen masaüstü nano-laboratuvarlar.",
+                        "Mikro-organizmaları ve virüsleri DNA seviyesinde izleyip, evrimleşip yeni bir mutasyona (pandemiye) dönüşme ihtimalini simüle eden otonom patoloji sistemleri."
+                    ],
+                    "imagePath": "images/ai_tibbi_laboratuvar_teknikleri_27.jpg"
+                },
+                {
+                    "id": "p_28",
+                    "name": "Dezenfeksiyon, Sterilizasyon ve Antisepsi Teknikerliği",
+                    "shortDesc": "Akıllı patojen tespiti, otonom sterilizasyon robotları ve enfeksiyon risk haritalaması.",
+                    "article": "Hastane enfeksiyonları (Nozokomiyal enfeksiyonlar) her yıl binlerce hayata mal olurken, yapay zeka ve biyolojik sensörlerin birleşimi ameliyathaneleri ve steril alanları tamamen güvenli hale getiriyor. Sterilizasyon teknikerleri artık manuel temizlikten ziyade, yapay zeka ile entegre optik tarayıcıları yönetiyor. Ultraviyole ve spektrometre (ışık tayfı) sensörleri, aletlerin veya yüzeylerin üzerinde kalan tek bir virüs RNA'sını veya dirençli bakteriyi bile kızılötesi kameralarda işaretler.\n\nOtonom sterilizasyon robotları, hastanenin boş olduğu saatleri hesaplayarak koridorlarda gezer ve yapay zekanın belirlediği 'yüksek riskli' yüzeyleri yoğun UV-C ışınları ve nano-dezenfektanlarla %99.9 oranında temizler. Hangi cerrahi aletin ne sıklıkla ve hangi ısıyla sterilize edilmesi gerektiğini sistem otonom belirler.",
+                    "pastProjects": [
+                        "Xenex LightStrike: Hastane odalarını yüksek yoğunluklu UV ışınlarıyla temizleyen ve AI ile odanın şeklini haritalandırıp hiçbir kör nokta bırakmayan otonom dezenfeksiyon robotu.",
+                        "AI Destekli Enstrüman Takibi: Cerrahi aletlerin üzerine işlenen barkodları okuyup kullanım, korozyon ve sterilizasyon döngülerini analiz ederek metal yorgunluğunu öngören yazılımlar."
+                    ],
+                    "futureProjects": [
+                        "Havadaki partikülleri saniye saniye yutup DNA analizi yaparak hastaneye giren yeni bir virüsü anında klima filtreleriyle lazerle yok eden akıllı bina yapay zekaları.",
+                        "Cerrahi aletlerin yüzeyini, patojen tutunmasını %100 engelleyen ve kendi kendini steril eden (biyomimetik) akıllı nanoteknolojik kaplamalarla donatan sistemler."
+                    ],
+                    "imagePath": "images/ai_dezenfeksiyon,_sterilizasyon_ve_antisepsi_teknikerligi_28.jpg"
+                },
+                {
+                    "id": "p_29",
+                    "name": "İş ve Uğraşı Terapisi",
+                    "shortDesc": "Kişiselleştirilmiş bilişsel rehabilitasyon, adaptif algoritmalar ve BCI (Beyin-Bilgisayar Arayüzü).",
+                    "article": "Bireylerin toplumsal ve günlük yaşam rollerini geri kazanmasını hedefleyen iş ve uğraşı terapisi, yapay zeka ile tamamen ölçülebilir ve kişiselleştirilmiş bir bilim dalı haline geldi. Bilişsel yıkım (örn. demans, inme sonrası) yaşayan hastalar için yapay zeka destekli tablet oyunları veya sanal gerçeklik (VR) simülasyonları tasarlanmaktadır. Algoritma, hasta bir eşleşme bulmacasını çözerken göz bebeklerinin hareketlerini, karar verme süresini ve hatalarını milisaniye bazında analiz eder.\n\nSistem, hastanın o anki yorgunluk ve hayal kırıklığı seviyesini algıladığında oyunun zorluğunu otonom olarak düşürür, hastanın beyninde nöroplastisite (yeni beyin ağları oluşumu) oluşması için en optimum zorluk eşiğini daima korur.",
+                    "pastProjects": [
+                        "MindMaze (MindMotion): Nörolojik hasarlı hastalar için sanal gerçeklik üzerinden motor ve bilişsel görevler sunan, yapay zeka ile iyileşme hızını ölçen rehabilitasyon platformu.",
+                        "Akıllı Adaptif Ev Sistemleri: Hastanın günlük rutininde (yemek yapma, giyinme) hata yaptığı noktaları IoT kameralarla analiz edip terapiste objektif gelişim raporu sunan asistanlar."
+                    ],
+                    "futureProjects": [
+                        "Beyin-Bilgisayar Arayüzleri (BCI) ile hastanın doğrudan düşüncelerini okuyarak, hasarlı beyin bölgelerini hedef alan elektriksel nöro-uyarımlarla terapiyi saniyeler içinde hızlandıran sistemler.",
+                        "Hastanın iş yerine entegre edilen, onun çalışma hızını, stresini okuyan ve fiziksel zorlanmasını engelleyecek robotik yardımcı kolları otonom yöneten AI iş arkadaşları."
+                    ],
+                    "imagePath": "images/ai_i̇s_ve_ugrasi_terapisi_29.jpg"
+                }
+            ]
+        },
+        {
+            "id": "s3",
+            "name": "Teknoloji ve Temel Bilimler",
+            "icon": "💻",
+            "professions": [
+                {
+                    "id": "p_30",
+                    "name": "Adli Bilimler",
+                    "shortDesc": "Olay yeri örüntü tanıma, kriminolojik veri madenciliği ve AI tabanlı DNA profilleme.",
+                    "article": "Suç mahalli incelemesi ve kriminalistik, yapay zekanın muazzam hesaplama kapasitesiyle bambaşka bir evreye geçti. Kriminal polis laboratuvarlarındaki AI algoritmaları; kısmi parmak izlerini, yüz tanıma kameralarından alınan bulanık görüntüleri ve parçalanmış DNA dizilimlerini milyarlarca veri arasından saniyeler içinde eşleştirebiliyor.\n\nBir cinayet mahallinde bırakılan tek bir saç telinden veya kurumuş kan damlasından (Fenotipleme), yapay zeka o kişinin yüz hatlarını, göz rengini ve kökenini 3 boyutlu bir resim olarak (DNA Phenotyping) çizebilmektedir. Ayrıca mermi kovanlarındaki balistik izleri derin öğrenme ile tarayan sistemler, aynı silahın daha önce hangi olaylarda kullanıldığını tüm ülke veri tabanında anında bulur.",
+                    "pastProjects": [
+                        "Parabon Snapshot: Sadece olay yerinde bulunan DNA'yı makine öğrenimiyle analiz ederek şüphelinin 3D yüz modelini, yaşını ve etnik kökenini çizen adli teknoloji.",
+                        "Gelişmiş Balistik AI (NIBIN): Mikroskobik kovan izlerini yüksek hızda dijitalleştirip, ülke çapındaki faili meçhul dosyalarla insan gözünden çok daha hızlı eşleştiren yapay sinir ağları."
+                    ],
+                    "futureProjects": [
+                        "Olay yerindeki kan sıçrama açılarını ve kırık cam dağılımını 3D tarayarak, cinayetin veya kazanın fiziksel simülasyonunu saniye saniye VR olarak canlandıran holografik dedektif algoritmaları.",
+                        "Şüphelinin sorgu sırasındaki mikro-mimiklerini, kalp atışını, ses frekansındaki stresi kızılötesi kameralarla okuyup yalan söyleme ihtimalini %99 kesinlikle belirleyen AI yalan makineleri."
+                    ],
+                    "imagePath": "images/ai_adli_bilimler_30.jpg"
+                },
+                {
+                    "id": "p_31",
+                    "name": "Bilgisayar Mühendisliği",
+                    "shortDesc": "Generative AI, Otonom Kodlama Asistanları ve MLOps Mimarisi.",
+                    "article": "Bilgisayar mühendisliği paradoksal bir şekilde 'kendi kendini yazabilen' yapay zekaları üreten tek meslektir. Derin Öğrenme (Deep Learning) ve Büyük Dil Modelleri'nin (LLM) yükselişiyle, yazılım geliştirme süreci kökten değişmiştir. Algoritmalar artık bir insan diliyle yazılan (İngilizce/Türkçe) gereksinimleri anlayıp saniyeler içinde binlerce satırlık hatasız, güvenli ve optimize edilmiş kod blokları (C++, Python, Rust) üretebilmektedir.\n\nBilgisayar mühendisinin rolü kod ameleliğinden, devasa AI sistemlerinin mimarisini (System Architecture) tasarlamaya, makine öğrenimi modellerini eğitmeye ve siber güvenlik açıklarını tespit edip yapay zekayı denetlemeye kaymıştır. AI, kodlama hızını 10 katına çıkarırken test ve hata ayıklama (debugging) işlemlerini tamamen otonomlaştırmaktadır.",
+                    "pastProjects": [
+                        "GitHub Copilot & Cursor: Geliştiricinin ne yazacağını anında tahmin edip kod blokları öneren, devasa GitHub kod tabanıyla eğitilmiş yapay zeka asistanları.",
+                        "DeepMind AlphaCode: İnsan müdahalesi olmadan rekabetçi karmaşık algoritmik problemleri okuyup mantıksal çözüm üreterek çalışan kod yazabilen sistem."
+                    ],
+                    "futureProjects": [
+                        "Geliştirici 'Bana bir e-ticaret platformu kur' dediğinde; frontend, backend, veritabanı, güvenlik altyapısı ve sunucu ayarlarını 3 saniyede inşa edip canlıya alan Tam Otonom Yazılım Mimarları.",
+                        "Kendi kodunu sürekli olarak tarayıp, daha hızlı çalışması veya hacklenmemesi için kaynak kodunu kullanıcı hissetmeden arka planda yeniden yazan ve evrimleşen organik yapay zekalar."
+                    ],
+                    "imagePath": "images/ai_bilgisayar_muhendisligi_31.jpg"
+                },
+                {
+                    "id": "p_32",
+                    "name": "Moleküler Biyoloji ve Genetik",
+                    "shortDesc": "Protein katlanması simülasyonları, CRISPR hedeflemesi ve genomik veri madenciliği.",
+                    "article": "Biyolojinin temel şifresi olan DNA, yapay zekanın matematiksel hesaplama gücüyle nihayet tam olarak deşifre ediliyor. İnsan genom projesinin yıllar süren haritalandırma süreçleri, artık yapay zeka ile saatler içinde yapılmaktadır. Moleküler biyologlar, gen düzenleme aracı CRISPR'ı kullanırken; 'hangi gende hangi kesimi yaparsam kanseri durdururum?' sorusunun cevabını yapay zekaya bırakmaktadır.\n\nYapay zeka (özellikle AlphaFold), on yıllardır çözülemeyen protein katlanması problemini çözerek 200 milyondan fazla proteinin 3 boyutlu yapısını saniyeler içinde simüle etmiştir. Bu devrim, daha önce tedavisi imkansız görülen genetik hastalıklar için özel ilaçların sadece haftalar içinde tasarlanabilmesinin önünü açmıştır.",
+                    "pastProjects": [
+                        "Google DeepMind AlphaFold: İnsanlık tarihindeki bilinen tüm proteinlerin 3 boyutlu yapılarını %90'ın üzerinde doğrulukla tahmin ederek Nobel Ödülü kazandıran çığır açıcı AI modeli.",
+                        "CRISPR-AI Tasarım Araçları (Elevation/Azimuth): Gen düzenleme esnasında hedef dışı (off-target) mutasyon risklerini derin öğrenme ile hesaplayıp en güvenli DNA kesim noktasını öneren yazılımlar."
+                    ],
+                    "futureProjects": [
+                        "Embriyo aşamasında veya yetişkin hücrelerinde yüz binlerce geni aynı anda optimize edip hastalıkları vücuda hiç girmeden silen 'Sanal Genom Editörleri'.",
+                        "Yaşlanma sürecine sebep olan genetik yıpranmayı (telomer kısalmasını) tersine çevirecek hücresel kodları otonom olarak yazan ve ölümsüzlük simülasyonları yapan kuantum biyoloji modelleri."
+                    ],
+                    "imagePath": "images/ai_molekuler_biyoloji_ve_genetik_32.jpg"
+                },
+                {
+                    "id": "p_33",
+                    "name": "Yapay Zeka Operatörlüğü",
+                    "shortDesc": "Büyük Dil Modelleri (LLM) yönetimi, prompt mühendisliği (Prompt Engineering) ve Model İnce Ayarı (Fine-Tuning).",
+                    "article": "Geleceğin en önemli yeni mesleklerinden biri olan Yapay Zeka Operatörlüğü (AI Engineer / Prompt Engineer), eğitilmiş devasa yapay zeka modellerini (GPT-4, Gemini, Claude vb.) alıp spesifik endüstrilerin ihtiyacına göre şekillendiren uzmanlıktır. Bu uzmanlar modeli sıfırdan yazmaz; modeli kurumsal veriyle eğitir (RAG - Retrieval-Augmented Generation) ve modele en doğru cevabı verdirecek matematiksel ve dilbilimsel komutları (Prompt) tasarlar.\n\nModelin halüsinasyon (yanlış/uydurma bilgi) üretmesini engellemek, etik kurallara uymasını sağlamak ve sistemi dışarıdan gelebilecek 'Prompt Injection' siber saldırılarına karşı korumak bu mesleğin temelidir. Onlar, insan diliyle makine zekası arasındaki en güçlü köprüdür.",
+                    "pastProjects": [
+                        "RAG (Retrieval-Augmented Generation) Sistemleri: Bir şirketin veya hastanenin kendi özel veritabanını ChatGPT gibi modellere bağlayıp sadece kurum verisinden cevap üretmesini sağlayan mimari kurulumlar.",
+                        "Otonom AI Ajanları (AutoGPT): Sadece tek bir hedef (örn. 'pazar araştırması yap') verilerek, kendi kendine plan yapan, internette dolaşan ve alt görevler yaratan çoklu ajan (Multi-Agent) sistemleri."
+                    ],
+                    "futureProjects": [
+                        "Tüm devlet yönetimi veya mega şirketlerin CEO'luk görevlerini otonom yürüten Merkezi Zeka sistemlerini kontrol eden, denetleyen ve 'Fişi Çekme' yetkisine sahip Yüksek Etik Operatörleri.",
+                        "Tek bir ana yapay zekanın kendi altında milyonlarca spesifik işçi-yapay-zeka (Sub-Agents) ürettiği sistemlerde, bu hiyerarşiyi yöneten Kuantum Zeka Orkestratörleri."
+                    ],
+                    "imagePath": "images/ai_yapay_zeka_operatorlugu_33.jpg"
+                }
+            ]
+        }
+    ]
+}
